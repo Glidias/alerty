@@ -171,6 +171,7 @@
         // if previous modal is open, remove it and immediately callback
         if ($oldModal) {
           commonUse.removeElement($oldModal);
+          commonUse.removeElement(document.querySelector('.alerty-overlay'));
           var _callback = this.previousCallback;
           if (_callback) _callback();
         }
