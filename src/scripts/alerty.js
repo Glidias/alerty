@@ -122,8 +122,8 @@
       
       // static defaults params
       defaults: {
-        okLabel: '\u786e\u5b9a',
-        cancelLabel: '\u53d6\u6d88',
+        okLabel: 'OK',
+        cancelLabel: 'Cancel',
         time: 2000
       },
 
